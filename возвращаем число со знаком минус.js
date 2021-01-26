@@ -1,10 +1,10 @@
 const makeNegative = (num) => {
     if (num <= 0){
-        return num;
+      return num;
     }
     return -num;
 }
-console.log(makeNegative(5));
+console.log(makeNegative(3));
 
 // const makeNegative = (num) => {
 //     if (num <= 0) {
@@ -14,3 +14,4 @@ console.log(makeNegative(5));
 //     // иначе - возвращаем число со знаком минус
 //     return -num;
 // }
+
