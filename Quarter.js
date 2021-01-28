@@ -24,3 +24,4 @@ alert(quarter(1));
      // Лисий код
 
 const quarter = (month) => Math.floor((month - 1)/ 3) + 1
+    alert(quarter(1));
