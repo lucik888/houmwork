@@ -2,7 +2,7 @@ const sumPositive = (array) => {
   let result = 0;
   for (let item of array) {
     if (item > 0) {
-      result = result +item;
+      result = result + item;
       // result += item;
     }
   }

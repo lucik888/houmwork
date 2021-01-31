@@ -8,10 +8,10 @@ const fact = (n) => {
 
 alert(fact(8));
 
-const substitute = (a, b, c) => {
-  const total = a + b + c;
-
-  return fact(total) / (fact(a) * fact(b) * fact(c));
-}
-
-alert(substitute(4, 4, 8));
+// const substitute = (a, b, c) => {
+//   const total = a + b + c;
+//
+//   return fact(total) / (fact(a) * fact(b) * fact(c));
+// }
+//
+// alert(substitute(4, 4, 8));

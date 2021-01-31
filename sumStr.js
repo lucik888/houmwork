@@ -6,7 +6,7 @@ const sumStr = (a, b) => {
     return "пили цифры";
   }
   const strResult = String(result);
-    return strResult;
+  return strResult;
 }
 
-alert(sumStr("s", "f"));
+alert(sumStr("5", "4"));
