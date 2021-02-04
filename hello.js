@@ -1,8 +1,6 @@
-const hello = (fn, ln) => {
-     return `Привет, ${fn} ${ln}!`;
+let user = {
+    surName: "Дмитрий",
+    fersName: "Карпов"
 }
 
-alert(hello("Dmytry","Karpov"));
-
-// // const hello = (fn, ln) => `Привет, ${fn} ${ln}!
-// alert(hello("Dmytry","Karpov"));
+alert(`"hello" ${user.fersName} ${user.surName}`);

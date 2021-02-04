@@ -3,10 +3,12 @@ const sumStr = (a, b) => {
   const numB = Number(b);
   const result = numA + numB;
   if (result !== result) {
-    return "пили цифры";
+    return "пиши цифры";
   }
   const strResult = String(result);
   return strResult;
 }
+console.log(typeof sumStr);
+alert(sumStr("парпекрп", "4"));
 
-alert(sumStr("5", "4"));
+
