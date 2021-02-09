@@ -1,9 +1,21 @@
+.row {
+    display: flex;
+    justify-content: left;
+    flex-direction: row;
+}
 .square {
-    position: absolute;
-    left: 100px;
+    display: flex;
     top: 50px;
     width: 100px;
     height: 100px;
     background-color: black;
+    transition: border-radius 0.5s ease-in-out, transform 0.5s ease-in-out;
+}
+.square2 {
+    display: flex;
+    top: 50px;
+    width: 100px;
+    height: 100px;
+    background-color: dimgrey;
     transition: border-radius 0.5s ease-in-out, transform 0.5s ease-in-out;
 }
