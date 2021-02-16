@@ -6,3 +6,15 @@
 .row + .row {
     margin-top: 1rem;
 }
+.result {
+    border-color: darkgray;
+}
+.btm {
+    border-radius: 5px;
+    border-color: darkgray;
+    border-width: 1px;
+}
+.row-Title {
+    color: black;
+    margin-bottom: 2rem;
+}
