@@ -1,10 +1,11 @@
 .container {
     max-width: 400px;
-    margin-top: 250px;
+    margin-top: 150px;
     color: darkgray;
 }
 .row + .row {
-    margin-top: 1rem;
+    margin-top: 0.5rem;
+
 }
 .result {
     border-color: darkgray;
@@ -15,6 +16,12 @@
     border-width: 1px;
 }
 .row-Title {
+    display: flex;
     color: black;
-    margin-bottom: 2rem;
+    margin-bottom: 1rem;
+    justify-content: center;
+
+}
+.row {
+    padding-bottom: 10px;
 }
