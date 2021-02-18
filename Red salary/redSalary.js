@@ -11,7 +11,7 @@ const result = document.getElementById('result');
 form.addEventListener('submit', (ev) => {
 
     ev.preventDefault();
-    if (fee(undefined, undefined, undefined)) {
+    if (fee(undefined , undefined, undefined)) {
         result.textContent = "заполните форму";
     }
       const { md, rd, tax } = ev.target.elements;
@@ -23,11 +23,3 @@ form.addEventListener('reset', () => {
 
     result.textContent = '';
 });
-
-const makeNegative = (num) => {
-    if (num <= 0){
-        return num;
-    }
-    return -num;
-}
-console.log(makeNegative(5));
