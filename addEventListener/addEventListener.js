@@ -13,10 +13,10 @@ square.addEventListener('click', () => {
     square.style.borderRadius = '50%';
   }
 
-  if (square.style.transform === 'rotate(180deg)') {
+  if (square.style.transform === 'rotate(90deg)') {
     square.style.transform = '';
   } else {
-    square.style.transform = 'rotate(180deg)';
+    square.style.transform = 'rotate(90deg)';
   }
 });
 
@@ -35,9 +35,9 @@ square2.addEventListener('click', () => {
   else {
     square2.style.borderRadius = `20%`
   }
-  if (square2.style.transform === 'rotate(180deg)') {
+  if (square2.style.transform === 'rotate(90deg)') {
     square2.style.transform = '';
   } else {
-    square2.style.transform = 'rotate(180deg)';
+    square2.style.transform = 'rotate(90deg)';
   }
    });
