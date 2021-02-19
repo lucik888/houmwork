@@ -41,3 +41,13 @@ square2.addEventListener('click', () => {
     square2.style.transform = 'rotate(90deg)';
   }
    });
+const imgGear = document.querySelector('.imgGear');
+
+imgGear.addEventListener('click', () => {
+
+  if (imgGear.style.transform === 'rotate(100deg)') {
+    imgGear.style.transform = '';
+  } else {
+    imgGear.style.transform = 'rotate(100deg)';
+  }
+});
