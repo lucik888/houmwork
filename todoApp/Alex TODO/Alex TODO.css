@@ -10,4 +10,17 @@
     text-decoration: line-through;
     color: darkgray;
 }
-
+.list-group-item {
+    display: flex;
+    align-items: center;
+}
+.btn {
+    margin-left: auto;
+}
+/*.row mb-2 {*/
+/*    display: flex;*/
+/*    align-content: center;*/
+/*}*/
+.btnPrimary {
+    width: 50%;
+}
