@@ -1,0 +1,13 @@
+.container mt-4 {
+    display: flex;
+    width: 50%;
+    align-items: center;
+}
+.row {
+    margin-top: 1rem;
+}
+.list-group-item-content[data-done="true"] {
+    text-decoration: line-through;
+    color: darkgray;
+}
+
