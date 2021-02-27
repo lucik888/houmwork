@@ -1,7 +1,5 @@
-.container mt-4 {
-    display: flex;
+.container {
     width: 50%;
-    align-items: center;
 }
 .row {
     margin-top: 1rem;
@@ -23,4 +21,8 @@
 /*}*/
 .btnPrimary {
     width: 50%;
+}
+
+.pointer {
+    cursor: pointer;
 }
