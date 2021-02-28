@@ -1,0 +1,28 @@
+.container {
+    width: 50%;
+}
+.row {
+    margin-top: 1rem;
+}
+.list-group-item-content[data-done="true"] {
+    text-decoration: line-through;
+    color: darkgray;
+}
+.list-group-item {
+    display: flex;
+    align-items: center;
+}
+.btn {
+    margin-left: auto;
+}
+/*.row mb-2 {*/
+/*    display: flex;*/
+/*    align-content: center;*/
+/*}*/
+.btnPrimary {
+    width: 50%;
+}
+
+.pointer {
+    cursor: pointer;
+}
