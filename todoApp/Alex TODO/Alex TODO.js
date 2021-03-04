@@ -9,17 +9,14 @@ const createNewTodo = (text) => {
   label.dataset.done = 'false';
   label.textContent = text;
 
-  // создаем элемент li
-  const listItem = document.createElement('li');
-  listItem.classList.add('list-group-item');
-
   // создаем элемент button
   const removeButton = document.createElement('button');
   removeButton.classList.add('btn-remove', 'btn', 'btn-sm', 'btn-primary');
   removeButton.textContent = 'Remove';
-  removeButton.addEventListener('click', () => {
-    listItem.remove();
-  });
+
+  // создаем элемент li
+  const listItem = document.createElement('li');
+  listItem.classList.add('list-group-item');
 
   // добавляем элементы span и button внутрь li
   listItem.appendChild(label);
@@ -38,15 +35,6 @@ form.addEventListener('submit', (ev) => {
   // добавляем созданный элемент внутрь списка
   list.appendChild(newTodoItem);
 });
-
-
-
-
-
-
-
-
-
 
 // <li className="list-group-item">
 //   <span className="pointer list-group-item-content" data-done="true"> Some todo item </span>
