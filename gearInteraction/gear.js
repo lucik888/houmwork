@@ -10,7 +10,10 @@ press.addEventListener('click', () => {
 
 gear.addEventListener("animationend",() => {
   gear.classList.remove("spin");
+  alert.classList.add("hidden");
 })
+
+
 
 // чтобы создать реакт приложение
 // npx create-react-app <название папки>
