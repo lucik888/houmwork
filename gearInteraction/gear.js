@@ -5,8 +5,12 @@ const alert = document.getElementById("alert");
 press.addEventListener('click', () => {
   gear.classList.add("spin");
   alert.classList.remove("hidden");
+
 })
 
+gear.addEventListener("animationend",() => {
+  gear.classList.remove("spin");
+})
 
 // чтобы создать реакт приложение
 // npx create-react-app <название папки>
