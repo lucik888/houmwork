@@ -7,8 +7,8 @@ const tickets = [
 
 const getTicketTime = (tickets, ticketCode) => {
  // write your code here
-
-  return new Date();
+  const ticket = tickets.find((item) => item.code === ticketCode);
+  return ticket.departureAt.toLocaleTimeString();
 };
 
 console.log(getTicketTime(tickets, 'AA123'));
